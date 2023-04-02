@@ -28,5 +28,9 @@
 @media (max-width: 768px) {
   .toolsM-container {
     display: block;
+    .toolM img{
+      filter: contrast(1.2);
+    }
   }
+
 }
