@@ -5,7 +5,6 @@
     "paragraphs": [
       "This application allows you to design customized flashcards with questions on one side and answers on the other. When a question appears, the user attempts to answer it and informs the app whether their response was correct.",
       "The app is built on the concept of spaced repetition, which means that if the user answers correctly the first time, the card will only be presented after 24 hours. If the answer is correct once again, the card will be presented after 3 days and so on, with increasingly longer intervals between reviews. If the user's response is incorrect, the cards restarts from the beginning.",
-      "This memorization technique is extremely effective because simpler information is reviewed less frequently, while more challenging information is reviewed more often.",
       "You may learn more about spaced repetition by visiting the How it works page."
     ],
     "urls": [
@@ -22,7 +21,7 @@
     "subtitle": "Come on in, we've got great deals!",
     "paragraphs": [
       "This e-commerce demo app was built with React.js, React Router and Redux Toolkit for state management.",
-      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage (local storage) and rehydrated on page refresh. Debouncing is implemented in the search functionality, this way products will be fetched only when the user stops typing in the search box.",
+      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage and rehydrated on page refresh. Debouncing is implemented in the search functionality.",
       "NOTE: Since this is a demo app, no information will be submitted anywhere when you 'order' a product. Type some fake info into the form to get through validation."
     ],
     "urls": [
@@ -69,7 +68,7 @@
     "image": "snippets.png"
   },
   {
-    "title": "Speed Typing App",
+    "title": "Speed Typing",
     "subtitle": "Challenge yourself and test your blind typing skills.",
     "paragraphs": [
       "Speed Typing App is written in React and it allows users to test their blind typing skills.",
@@ -106,10 +105,10 @@
     "title": "Wise Tracker",
     "subtitle": "Track their personal finances and cryptocurrency investments.",
     "paragraphs": [
-      "EXPENSE TRACKER: The user can input their monthly income and expenses. The app renders that data on the page and saves it in local storage. A budget is created and updated anytime the user adds or removes a transaction. The budget is visualized using Charts.js library.",
-      "ENVELOPES: Based on the envelope saving system, traditionally using physical envelopes and cash, the user can create virtual envelopes and add money anytime to save up for a specific expense.",
-      "CRYPTO TRACKER: The user can add and track their cryptocurrency orders. Anytime a buy or sell order is added, the app will fetch the current price via Coin Gecko's API and calculate the order amount. The cryptocurrency is added to the user's holdings and the portfolio amount is updated. Autocomplete functionality is created from scratch using the same API data.",
-      "WATCHLIST: The user can add assets to their watchlist, which will display the asset's chart. The charts are made using the Chart.js library and created dynamically by fetching the last 30 days of price data from the Coin Gecko API. Data from the same API is also used to dynamically create the list of available assets, their logos and symbols."
+      "EXPENSE TRACKER: The user can input and track their monthly income and expenses.",
+      "ENVELOPES: The user can create virtual envelopes and add money anytime to save up for a specific expense.",
+      "CRYPTO TRACKER: The user can add and track their cryptocurrency orders. Anytime a buy or sell order is added, the app will fetch the current price via Coin Gecko's API and calculate the order amount.",
+      "WATCHLIST: The user can add assets to their watchlist, which will display the asset's chart. The charts are made using the Chart.js library and created dynamically by fetching the last 30 days of price data from the Coin Gecko API."
     ],
     "urls": [
       {
@@ -127,7 +126,7 @@
       "The app has two types of exercises: listening and singing. The user can choose chords, intervals or scales they want to practice.",
       "LISTENING: In the listening section the app will play a chord, interval, or scale and the users job is to recognize what is being played.",
       "SINGING: In the singing section the user gets a starting note and has to correctly sing the requested chord, interval, or scale.",
-      "The program is given an array of notes. Classes are used to define distances between notes of every chord, interval and scale so the program can build any of them from any note. The app chooses a random chord, interval or scale and builds it on a randomly selected note. I used the Tone.js library to play the notes either all together or one by one. The app is built as a single page application by dispalying only the neccessary parts and hiding the rest. I also used JavaScript modules to make code more organized and reusable."
+      "The program is given an array of notes. Classes are used to define distances between notes of every chord, interval and scale so the program can build any of them from any note. I used the Tone.js library to play the notes either all together or one by one."
     ],
     "urls": [
       {

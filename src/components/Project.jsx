@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-// import { useOnClickRectOutside } from "../customHooks/useOnClickRectOutside";
 import "../main.scss";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef} from "react";
 import Portal from "./Portal";
 
 export default function Project({ project }) {
@@ -46,7 +45,7 @@ export default function Project({ project }) {
       initial="initial"
       whileInView="animate"
       variants={scrollVariants}
-      viewport={{once:true}}
+      viewport={{ once: true }}
     >
       <div className="project" ref={projectRef}>
         <div className="project__closed">
