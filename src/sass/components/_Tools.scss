@@ -1,0 +1,47 @@
+.tools-container {
+  margin-bottom: $margin-section;
+  min-height: 100vh;
+  width: 100vw;
+  h3 {
+    @include section-heading;
+    margin-bottom: $margin-heading;
+  }
+  .tools {
+    margin: 0 auto;
+    gap: a;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 10vw;
+    row-gap: 10rem;
+    @include container;
+    & > div {
+      -webkit-box-reflect: below 0px
+        linear-gradient(transparent, transparent, #0002);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .tools {
+    column-gap: 5vw !important;
+    row-gap: 5rem !important;
+  }
+  .tools-container h3 {
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .tools {
+    column-gap: 2vw !important;
+    row-gap: 2rem !important;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
+  }
+  .tools-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 425px) {
+}

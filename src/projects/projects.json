@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Spaced Repetition",
+    "subtitle": "An efficient approach to learning new information.",
+    "paragraphs": [
+      "This application allows you to design customized flashcards with questions on one side and answers on the other. When a question appears, the user attempts to answer it and informs the app whether their response was correct.",
+      "The app is built on the concept of spaced repetition, which means that if the user answers correctly the first time, the card will only be presented after 24 hours. If the answer is correct once again, the card will be presented after 3 days and so on, with increasingly longer intervals between reviews. If the user's response is incorrect, the cards restarts from the beginning.",
+      "This memorization technique is extremely effective because simpler information is reviewed less frequently, while more challenging information is reviewed more often.",
+      "You may learn more about spaced repetition by visiting the How it works page."
+    ],
+    "urls": [
+      {
+        "netlify": "https://spaced-repetition-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/spaced-repetition"
+      }
+    ],
+    "id": 0,
+    "image": "spaced-repetition.png"
+  },
+  {
+    "title": "E-commerce",
+    "subtitle": "Come on in, we've got great deals!",
+    "paragraphs": [
+      "This e-commerce demo app was built with React.js, React Router and Redux Toolkit for state management.",
+      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage (local storage) and rehydrated on page refresh. Debouncing is implemented in the search functionality, this way products will be fetched only when the user stops typing in the search box.",
+      "NOTE: Since this is a demo app, no information will be submitted anywhere when you 'order' a product. Type some fake info into the form to get through validation."
+    ],
+    "urls": [
+      {
+        "netlify": "https://store-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/ecommerce"
+      }
+    ],
+    "id": 1,
+    "image": "e-commerce.png"
+  },
+  {
+    "title": "Alien Invaders",
+    "subtitle": "Remember the 90s?",
+    "paragraphs": [
+      "For this app I decided to explore HTML canvas and making games in JavaScript and it was a very fun project to work on. Elements are created with ES6 classes and are constantly being tracked for collision detection. Collisions between different elements have different outcomes.",
+      "The user can choose their battleship, aliens change color based on how many times they have been hit, and every now and then you'll get an upgrade drop which makes your ship shoot multiple bullets at once. The game currently has four levels and new levels can be added very easily. I will be adding more levels and features in the future."
+    ],
+    "urls": [
+      {
+        "netlify": "https://alien-invaders-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/alien-invaders"
+      }
+    ],
+    "id": 2,
+    "image": "alien-invaders.png"
+  },
+  {
+    "title": "Snippets",
+    "subtitle": "Online code editor.",
+    "paragraphs": [
+      "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones.",
+      "This CRUD (create, read, update and delete) app was written in React.js, with the help of Supabase as a backend.",
+      "I used Redux Toolkit for application-wide state management. I learned about creating a store, slices, reducers and dispatching actions to update the state.",
+      "This is a demo page and I already created a few snippets which can be found on the 'My Snippets' page. Feel free to add, edit or remove them for testing/reviewing purposes."
+    ],
+    "urls": [
+      {
+        "netlify": "https://snippets-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/snippets"
+      }
+    ],
+    "id": 4,
+    "image": "snippets.png"
+  },
+  {
+    "title": "Speed Typing App",
+    "subtitle": "Challenge yourself and test your blind typing skills.",
+    "paragraphs": [
+      "Speed Typing App is written in React and it allows users to test their blind typing skills.",
+      "The user can choose the number of words and the app will fetch random words from random-word-api.herokuapp.com. A timer starts running when the users starts typing. The input is constantly being checked and the game stops when every input letter is correct or the user makes a mistake. At this point the timer stops and the average speed is calculated.",
+      "By building this app I learned about new hooks, conditional rendering based on state, using loading animations and React Portals."
+    ],
+    "urls": [
+      {
+        "netlify": "https://speed-type-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/speed-type"
+      }
+    ],
+    "id": 5,
+    "image": "speed-type.png"
+  },
+  {
+    "title": "Weather Dashboard",
+    "subtitle": "Check current weather conditions and forecast.",
+    "paragraphs": [
+      "Weather Dashboard is a pretty simple app, but it is my first app written in React.js. With this project I learned a lot about the basics of React like components, props, hooks, JSX and React architecture.",
+      "The app fetches weather data from OpenWeather API, maninpulates it, and displays it on the screen. The app is responsive and ready to be used on many different devices.",
+      "I am starting to see the advantages that React has to offer and am looking forward to building more complex projects."
+    ],
+    "urls": [
+      {
+        "netlify": "https://weather-dashboard-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/weather-app"
+      }
+    ],
+    "id": 6,
+    "image": "weather-dashboard.png"
+  },
+  {
+    "title": "Wise Tracker",
+    "subtitle": "Track their personal finances and cryptocurrency investments.",
+    "paragraphs": [
+      "EXPENSE TRACKER: The user can input their monthly income and expenses. The app renders that data on the page and saves it in local storage. A budget is created and updated anytime the user adds or removes a transaction. The budget is visualized using Charts.js library.",
+      "ENVELOPES: Based on the envelope saving system, traditionally using physical envelopes and cash, the user can create virtual envelopes and add money anytime to save up for a specific expense.",
+      "CRYPTO TRACKER: The user can add and track their cryptocurrency orders. Anytime a buy or sell order is added, the app will fetch the current price via Coin Gecko's API and calculate the order amount. The cryptocurrency is added to the user's holdings and the portfolio amount is updated. Autocomplete functionality is created from scratch using the same API data.",
+      "WATCHLIST: The user can add assets to their watchlist, which will display the asset's chart. The charts are made using the Chart.js library and created dynamically by fetching the last 30 days of price data from the Coin Gecko API. Data from the same API is also used to dynamically create the list of available assets, their logos and symbols."
+    ],
+    "urls": [
+      {
+        "netlify": "https://wise-tracker-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/wise-tracker"
+      }
+    ],
+    "id": 7,
+    "image": "wise-tracker.png"
+  },
+  {
+    "title": "Ear Trainer",
+    "subtitle": "Sharpen your listening skills.",
+    "paragraphs": [
+      "The app has two types of exercises: listening and singing. The user can choose chords, intervals or scales they want to practice.",
+      "LISTENING: In the listening section the app will play a chord, interval, or scale and the users job is to recognize what is being played.",
+      "SINGING: In the singing section the user gets a starting note and has to correctly sing the requested chord, interval, or scale.",
+      "The program is given an array of notes. Classes are used to define distances between notes of every chord, interval and scale so the program can build any of them from any note. The app chooses a random chord, interval or scale and builds it on a randomly selected note. I used the Tone.js library to play the notes either all together or one by one. The app is built as a single page application by dispalying only the neccessary parts and hiding the rest. I also used JavaScript modules to make code more organized and reusable."
+    ],
+    "urls": [
+      {
+        "netlify": "https://ear-trainer-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/ear-trainer"
+      }
+    ],
+    "id": 8,
+    "image": "ear-trainer.png"
+  }
+]

@@ -1,0 +1,107 @@
+.hero {
+  position: relative;
+  @include full-screen;
+  @include center-flex;
+  @include container;
+  margin-bottom: $margin-section;
+  transform-style: preserve-3d;
+  perspective: 150rem;
+  transform: translateZ(5rem);
+  &__name {
+    animation: fill 0.5s ease forwards 3.5s;
+    margin-bottom: 2rem;
+  }
+  &__heading {
+    font-size: 6rem;
+    text-align: center;
+    color: $color-accent;
+    margin-bottom: 2rem;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: $color-text;
+  }
+  &__para {
+    font-size: 2rem;
+  }
+  .path:nth-child(1) {
+    @include stroke(876px, 1s);
+  }
+  .path:nth-child(2) {
+    @include stroke(314px, 1.2s);
+  }
+  .path:nth-child(3) {
+    @include stroke(295px, 1.4s);
+  }
+  .path:nth-child(4) {
+    @include stroke(265px, 1.6s);
+  }
+  .path:nth-child(5) {
+    @include stroke(277px, 1.8s);
+  }
+  .path:nth-child(6) {
+    @include stroke(623px, 2s);
+  }
+  .path:nth-child(7) {
+    @include stroke(193px, 2.2s);
+  }
+  .path:nth-child(8) {
+    @include stroke(166px, 2.4s);
+  }
+  .path:nth-child(9) {
+    @include stroke(193px, 2.6s);
+  }
+  .path:nth-child(10) {
+    @include stroke(270px, 2.8s);
+  }
+  .path:nth-child(11) {
+    @include stroke(162px, 3s);
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    &__text {
+      gap: 1.5rem;
+    }
+    &__heading {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+    &__para {
+      font-size: 1.8rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    &__text {
+      gap: 1.2rem;
+    }
+    &__heading {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+    }
+    &__para {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .hero {
+    &__text {
+      gap: 1rem;
+    }
+    &__heading {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    &__para {
+      font-size: 1rem;
+    }
+  }
+}

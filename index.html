@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aljaž Ferenc - Portfolio</title>
+  </head>
+  <body>
+    <form
+      className="contact"
+      name="contact"
+      data-netlify="true"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <p>
+        If you have any questions, don't hesitate to contact me. I will get back
+        to you as soon as possible!
+      </p>
+      <div>
+        <label htmlFor="name"> Name<span>*</span> </label>
+        <input type="text" className="input" id="name" name="name" required />
+      </div>
+      <div>
+        <label htmlFor="email"> Email<span>*</span> </label>
+        <input
+          type="email"
+          className="input"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+      <div>
+        <label htmlFor="message"> Message<span>*</span> </label>
+        <textarea name="message"></textarea>
+      </div>
+    </form>
+    <div id="portal"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.toolsM-container {
+  margin-bottom: $margin-section;
+  min-height: 100vh;
+  width: 100vw;
+  display: none;
+  h3 {
+    @include section-heading;
+    font-size: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .toolsM {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    column-gap: 10vw;
+    row-gap: 5rem;
+    @include container;
+
+    & > div {
+      -webkit-box-reflect: below 0px
+        linear-gradient(transparent, transparent, #0002);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .toolsM-container {
+    display: block;
+  }
+}

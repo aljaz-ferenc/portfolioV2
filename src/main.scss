@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import "./sass/variables";
+@import "./sass/mixins";
+@import "./sass/animations";
+@import "./sass/components/App";
+@import "./sass/components/Particles";
+@import "./sass/components/Hero";
+@import "./sass/components/Projects";
+@import "./sass/components/Portal";
+@import "./sass/components/Tools";
+@import "./sass/components/Contact";
+@import "./sass/components/Project";
+@import "./sass/components/ToolsMobile";
+@import "./sass/components/Name";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  color: $color-text;
+  overflow-x: hidden;
+  background-color: #082032;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  color: $color-text;
+  background: $color-accent;
+}
+
+//scrollbar styles
+::-webkit-scrollbar {
+  width: 20px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-background;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba($color: $color-accent, $alpha: 0.3);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $color-accent;
+}
