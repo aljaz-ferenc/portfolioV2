@@ -47,3 +47,9 @@
     font-size: 120% !important;
   }
 }
+@media (max-width: 425px) {
+  .project {
+    -webkit-box-reflect: below -30px
+    linear-gradient(transparent, transparent, #0004);
+  }
+}

@@ -59,6 +59,7 @@
 
 @media (max-width: 1024px) {
   .contact-container {
+    max-width: 90%;
     .contact__heading {
       margin-bottom: 3rem;
       font-size: 5rem !important;
@@ -90,6 +91,7 @@
     }
     .contact {
       font-size: 1.4rem;
+      padding: 1rem;
       & > div {
         font-size: 1rem;
       }

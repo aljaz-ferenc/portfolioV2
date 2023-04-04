@@ -1,6 +1,5 @@
 .toolsM-container {
   margin-bottom: $margin-section;
-  min-height: 100vh;
   width: 100vw;
   display: none;
   h3 {
@@ -27,14 +26,19 @@
 
 @media (max-width: 768px) {
   .toolsM-container {
+    margin-bottom: $margin-section-medium;
+
     display: block;
-    h3{
+    h3 {
       font-size: 3rem !important;
     }
-    .toolM img{
+    .toolM img {
       filter: contrast(1.2);
     }
   }
-
 }
-
+@media (max-width: 425px) {
+  .toolsM-container {
+    margin-bottom: $margin-section-small;
+  }
+}

@@ -24,19 +24,22 @@
     }
     .projects-container {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      margin-bottom: $margin-section-medium;
+
     }
   }
 }
 
 @media (max-width: 768px) {
   .projects {
+    margin-bottom: $margin-section-small !important;
     &__heading {
       font-size: 3rem !important;
       margin-bottom: 1.5rem !important;
     }
-    .projects-container {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
+  }
+  .projects-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }
 
@@ -48,10 +51,9 @@
     }
     .projects-container {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      row-gap: 10rem !important;
+      row-gap: 5rem !important;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 15rem !important;
     }
   }
 }

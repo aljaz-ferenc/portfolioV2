@@ -29,7 +29,7 @@
   }
   .tools-container h3 {
     font-size: 5rem !important;
-    margin-bottom: 3rem;
+    margin-bottom: $margin-section-medium;
   }
 }
 
@@ -41,6 +41,7 @@
   }
   .tools-container {
     display: none !important;
+    margin-bottom: $margin-section-small;
   }
   .tools-container h3 {
     font-size: 3rem !important;
