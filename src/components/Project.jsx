@@ -51,8 +51,8 @@ export default function Project({ project }) {
         <div className="project__closed">
           <img
             className="project__image"
-            src={`/projects-images/${project.image}`}
-            alt=""
+            src={`/projects-images/${project.image}1000.webp`}
+            alt="project image"
             onClick={handleShowDetails}
           />
 

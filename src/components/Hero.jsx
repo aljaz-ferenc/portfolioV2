@@ -5,18 +5,18 @@ import Name from "./Name";
 export default function Hero() {
   const textVariants = {
     initialLeft: {
-      x: 500,
+      x: 200,
       opacity: 0,
     },
     initialRight: {
-      x: -500,
+      x: -200,
       opacity: 0,
     },
     animate: {
       x: 0,
       opacity: 1,
       transition: {
-        duration: 1.5,
+        duration: 2,
         delay: 3,
       },
     },
@@ -42,7 +42,7 @@ export default function Hero() {
           animate="animate"
           className="hero__para"
         >
-          After years of working in a different field, I decided to pursue my
+          After working in a different field, I decided to pursue my
           dream of becoming a frontend web developer. I am motivated, driven,
           and willing to learn whatever it takes to succeed in this exciting and
           fast-paced industry. I believe that with hard work, dedication, and a

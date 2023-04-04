@@ -41,3 +41,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .project__title--closed {
+    font-size: 120% !important;
+  }
+}

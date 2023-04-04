@@ -25,6 +25,7 @@
   font-size: 5rem;
   color: $color-accent;
   text-align: center;
+  text-transform: uppercase;
 }
 
 @mixin stroke($stroke-length, $delay) {

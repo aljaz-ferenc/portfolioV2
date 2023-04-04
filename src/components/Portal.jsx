@@ -35,8 +35,8 @@ export default function Portal({ project, checkClick, isOpen }) {
       <div ref={modalRef} className="portal__content">
         <img
           className="portal__image"
-          src={`/projects-images/${project.image}`}
-          alt=""
+          src={`/projects-images/${project.image}.webp`}
+          alt="project image"
         />
         <div className="portal__head">
           <h2 className="portal__title">{project.title}</h2>
@@ -50,12 +50,12 @@ export default function Portal({ project, checkClick, isOpen }) {
         <div className="link-icons">
           <div className="link-icons__github">
             <a href={project.urls[0].github} target="_blank">
-              <img src="icons/github.svg" alt="" />
+              <img className="link-img" src="icons/github.svg" alt="" />
             </a>
           </div>
           <div className="link-icons__netlify">
             <a href={project.urls[0].netlify} target="_blank">
-              <img src="icons/netlify.svg" alt="" />
+              <img className="link-img" src="icons/netlify.svg" alt="" />
             </a>
           </div>
         </div>

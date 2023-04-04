@@ -13,15 +13,14 @@
     justify-items: center;
     gap: 10vw;
   }
-  margin-bottom: 10rem;
-  min-height: 100vh;
+  margin-bottom: $margin-section;
 }
 
 @media (max-width: 1024px) {
   .projects {
     &__heading {
       font-size: 5rem !important;
-      margin-bottom: 2rem !important;
+      margin-bottom: 3rem !important;
     }
     .projects-container {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -44,8 +43,8 @@
 @media (max-width: 425px) {
   .projects {
     &__heading {
-      font-size: 2rem !important;
-      margin-bottom: 1rem !important;
+      font-size: 3rem !important;
+      margin-bottom: 2rem !important;
     }
     .projects-container {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

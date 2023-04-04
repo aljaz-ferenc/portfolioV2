@@ -15,7 +15,7 @@ export default function Tools() {
 
   return (
     <div className="toolsM-container">
-      <h3>Tools I use in my development process</h3>
+      <h3>Tools I use</h3>
       <div className="toolsM">
         {tools.map((tool, i) => (
           <div key={i} className="toolM">

@@ -3,10 +3,9 @@
   @include full-screen;
   @include center-flex;
   @include container;
-  margin-bottom: $margin-section;
-  transform-style: preserve-3d;
-  perspective: 150rem;
+  margin-bottom: calc($margin-section / 2);
   transform: translateZ(5rem);
+  z-index: 1;
   &__name {
     animation: fill 0.5s ease forwards 3.5s;
     margin-bottom: 2rem;

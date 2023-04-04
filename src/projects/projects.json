@@ -14,7 +14,7 @@
       }
     ],
     "id": 0,
-    "image": "spaced-repetition.png"
+    "image": "spaced-repetition"
   },
   {
     "title": "E-commerce",
@@ -31,7 +31,7 @@
       }
     ],
     "id": 1,
-    "image": "e-commerce.png"
+    "image": "e-commerce"
   },
   {
     "title": "Alien Invaders",
@@ -47,7 +47,7 @@
       }
     ],
     "id": 2,
-    "image": "alien-invaders.png"
+    "image": "alien-invaders"
   },
   {
     "title": "Snippets",
@@ -65,7 +65,7 @@
       }
     ],
     "id": 4,
-    "image": "snippets.png"
+    "image": "snippets"
   },
   {
     "title": "Speed Typing",
@@ -82,7 +82,7 @@
       }
     ],
     "id": 5,
-    "image": "speed-type.png"
+    "image": "speed-type"
   },
   {
     "title": "Weather Dashboard",
@@ -99,7 +99,7 @@
       }
     ],
     "id": 6,
-    "image": "weather-dashboard.png"
+    "image": "weather-dashboard"
   },
   {
     "title": "Wise Tracker",
@@ -117,7 +117,7 @@
       }
     ],
     "id": 7,
-    "image": "wise-tracker.png"
+    "image": "wise-tracker"
   },
   {
     "title": "Ear Trainer",
@@ -135,6 +135,6 @@
       }
     ],
     "id": 8,
-    "image": "ear-trainer.png"
+    "image": "ear-trainer"
   }
 ]

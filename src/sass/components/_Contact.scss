@@ -2,12 +2,12 @@
   @include center-flex;
   max-width: 90%;
   margin: 0 auto;
-  margin-bottom: $margin-section;
-  min-height: 100vh;
+  margin-bottom: 10rem;
+  // min-height: 100vh;
   max-width: 100vw;
   .contact__heading {
     @include section-heading;
-    margin-bottom: $margin-heading;
+    margin-bottom: 3rem;
   }
   .contact {
     background-color: rgba($color: $color-secondary, $alpha: 0.5);
@@ -60,8 +60,8 @@
 @media (max-width: 1024px) {
   .contact-container {
     .contact__heading {
-      margin-bottom: 2rem;
-      font-size: 3rem !important;
+      margin-bottom: 3rem;
+      font-size: 5rem !important;
     }
     .contact {
       font-size: 1.6rem;
@@ -86,7 +86,7 @@
 @media (max-width: 768px) {
   .contact-container {
     .contact__heading {
-      font-size: 2.5rem !important;
+      font-size: 3rem !important;
     }
     .contact {
       font-size: 1.4rem;
@@ -111,7 +111,8 @@
   .contact-container {
     max-width: 95%;
     .contact__heading {
-      font-size: 2rem !important;
+      font-size: 3rem !important;
+      margin-bottom: 2rem;
     }
     .contact {
       font-size: 1rem;

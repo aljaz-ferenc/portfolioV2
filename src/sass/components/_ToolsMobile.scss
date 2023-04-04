@@ -28,9 +28,13 @@
 @media (max-width: 768px) {
   .toolsM-container {
     display: block;
+    h3{
+      font-size: 3rem !important;
+    }
     .toolM img{
       filter: contrast(1.2);
     }
   }
 
 }
+
