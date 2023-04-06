@@ -1,31 +1,31 @@
 import React, { useEffect, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, useTexture } from "@react-three/drei";
+import { OrbitControls, PerspectiveCamera, useTexture } from "@react-three/drei";
 
 export default function CanvasComponent({ tool }) {
   return (
-    <Canvas style={{ cursor: "pointer" }}>
-      <ambientLight intensity={0.2} />
-      <spotLight position={[15, 4, -15]} intensity={0.8} />
+    <Canvas style={{ cursor: "pointer", height:"15rem" }}>
+      <ambientLight intensity={1} />
       <Sphere tool={tool} />
     </Canvas>
   );
 }
 
 function Sphere({ tool }) {
-  const texture = useTexture(`./icons/${tool}.png`);
+  const texture = useTexture(`./icons/${tool}-box.png`);
 
   return (
     <mesh>
       <OrbitControls
         enableZoom={false}
-        minAzimuthAngle={1.3}
-        maxAzimuthAngle={1.8}
-        minPolarAngle={1.3}
-        maxPolarAngle={1.8}
+        enablePan={false}
+        minPolarAngle={.95}
+        maxPolarAngle={2.05}
+        autoRotate={true}
+        autoRotateSpeed={3}
       />
-      <sphereGeometry args={[3, 40, 40]} />
-      <meshStandardMaterial map={texture} roughness={0} metalness={0.1} />
+      <boxGeometry args={[3, 3, 3, 1, 1, 1]} />
+      <meshStandardMaterial map={texture}/>
     </mesh>
   );
 }

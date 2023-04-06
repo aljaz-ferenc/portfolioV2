@@ -55,7 +55,7 @@ export default function Hero() {
           className="hero__para"
         >
           On my portfolio page, you will find examples of my work, including
-          websites I have designed and built from scratch.
+          websites and apps I have designed and built from scratch.
         </motion.p>
         <motion.p
           variants={textVariants}

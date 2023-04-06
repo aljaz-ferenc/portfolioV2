@@ -8,7 +8,7 @@
   }
   &__image {
     max-width: 100%;
-    transition: filter 0.2s;
+    transition: all 0.2s;
     display: block;
     cursor: pointer;
   }
@@ -31,6 +31,7 @@
 
 .project:hover .project__image {
   filter: brightness(0.3);
+  transform: scale(1.2);
 }
 
 @media (max-width: 1024px) {

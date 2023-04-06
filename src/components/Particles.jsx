@@ -10,8 +10,6 @@ export default function ParticlesComponent() {
 
   const particlesLoaded = useCallback(async (container) => {}, []);
 
-
-
   return (
     <motion.div 
       initial={{opacity: 0, zIndex: -10}}
