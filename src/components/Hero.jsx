@@ -42,11 +42,11 @@ export default function Hero() {
           animate="animate"
           className="hero__para"
         >
-          After working in a different field, I decided to pursue my
-          dream of becoming a frontend web developer. I am motivated, driven,
-          and willing to learn whatever it takes to succeed in this exciting and
-          fast-paced industry. I believe that with hard work, dedication, and a
-          strong commitment to learning, anything is possible.
+          After working in a different field, I decided to pursue my dream of
+          becoming a frontend web developer. I am motivated, driven, and willing
+          to learn whatever it takes to succeed in this exciting and fast-paced
+          industry. I believe that with hard work, dedication, and a strong
+          commitment to learning, anything is possible.
         </motion.p>
         <motion.p
           variants={textVariants}
@@ -55,7 +55,8 @@ export default function Hero() {
           className="hero__para"
         >
           On my portfolio page, you will find examples of my work, including
-          websites and apps I have designed and built from scratch.
+          websites and apps I have designed and built from scratch. Every
+          project contains links to it's GitHub repo and live page on Netlify.
         </motion.p>
         <motion.p
           variants={textVariants}
