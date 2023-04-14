@@ -65,6 +65,8 @@
         img{
             height: 100%;
             filter: contrast(1.5);
+            cursor: pointer;
+            z-index: 999;
             &:hover{
                 animation: wiggle 0.3s 1 backwards ease-in-out;
             }

@@ -12,7 +12,6 @@ export default function Project({ project }) {
 
   function handleShowDetails() {
     setIsOpen(true);
-    console.log(project.id);
     if (!isOpen) {
     }
     setTimeout(() => {

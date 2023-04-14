@@ -17,9 +17,10 @@ export default function Portal({ project, checkClick, isOpen }) {
   return ReactDOM.createPortal(
     <AnimatePresence>
       {newIsOpen && (
-        <div className="portal">
+        <div className="portal"
+        >
           <motion.div
-            ref={modalRef}
+          ref={modalRef}
             className="portal__content"
             initial={{ y: "100vh" }}
             exit={{ y: "100vh", transition: { duration: 0.3 } }}
