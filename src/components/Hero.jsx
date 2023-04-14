@@ -1,8 +1,14 @@
 import "../main.scss";
 import { motion } from "framer-motion";
 import Name from "./Name";
+import Video from "./Video";
+import { useEffect, useState } from "react";
+import volumeOn from '../../public/icons/volume-on.svg'
+import volumeOff from '../../public/icons/volume-off.svg'
 
 export default function Hero() {
+  const [muted, setMuted] = useState(true);
+
   const textVariants = {
     initialLeft: {
       x: 200,
@@ -17,13 +23,19 @@ export default function Hero() {
       opacity: 1,
       transition: {
         duration: 2,
-        delay: 3,
+        delay: 5,
       },
     },
   };
 
   return (
     <div className="hero">
+      <div className="hero__overlay"></div>
+      <div className="hero__volume-btns">
+          {muted && <img onClick={() => setMuted(false)} src={volumeOn} alt="" />}
+          {!muted && <img onClick={() => setMuted(true)} src={volumeOff}/>}
+        </div>
+      <Video muted={muted}/>
       <Name />
       <div className="hero__text">
         <motion.p

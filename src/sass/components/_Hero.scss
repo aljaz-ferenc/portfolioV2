@@ -6,6 +6,12 @@
   margin-bottom: calc($margin-section / 2);
   transform: translateZ(5rem);
   z-index: 1;
+  &__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent 90%, $color-background);
+  }
   &__name {
     animation: fill 0.5s ease forwards 3.5s;
     margin-bottom: 2rem;
@@ -60,7 +66,39 @@
   .path:nth-child(11) {
     @include stroke(162px, 3s);
   }
+  .video {
+    video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: bottom;
+      top: 0;
+      left: 0;
+      z-index: -5;
+      filter: opacity(0.08);
+    }
+  }
 }
+.hero__volume-btns {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 100;
+  height: 3rem;
+  width: 3rem;
+  img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    opacity: .3;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
+
 
 @media (max-width: 1024px) {
   .hero {
