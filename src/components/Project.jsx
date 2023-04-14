@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import "../main.scss";
 import { useState, useRef} from "react";
-import Portal from "./Portal";
+import Portal2 from "./Portal2";
 
 export default function Project({ project }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +64,7 @@ export default function Project({ project }) {
         </div>
       </div>
       {isOpen && (
-        <Portal checkClick={checkClick} isOpen={isOpen} project={project} />
+        <Portal2 checkClick={checkClick} isOpen={isOpen} project={project} />
       )}
     </motion.div>
   );
