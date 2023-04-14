@@ -41,6 +41,7 @@ export default function Mouse() {
 
   return (
     <canvas
+    className="mouse"
       ref={canvasRef}
       width={width}
       height={height}
