@@ -17,7 +17,7 @@ export default function Home() {
     >
       <ProgressBar/>
       <Hero />
-      <ToolsMobile />
+      {/* <ToolsMobile /> */}
     </motion.div>
   )
 }
