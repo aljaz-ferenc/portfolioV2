@@ -64,7 +64,7 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 4,
+    "id": 3,
     "image": "snippets"
   },
   {
@@ -81,7 +81,7 @@
         "github": "https://github.com/aljaz-ferenc/speed-type"
       }
     ],
-    "id": 5,
+    "id": 4,
     "image": "speed-type"
   },
   {
@@ -98,7 +98,7 @@
         "github": "https://github.com/aljaz-ferenc/weather-app"
       }
     ],
-    "id": 6,
+    "id": 5,
     "image": "weather-dashboard"
   },
   {
@@ -116,7 +116,7 @@
         "github": "https://github.com/aljaz-ferenc/wise-tracker"
       }
     ],
-    "id": 7,
+    "id": 6,
     "image": "wise-tracker"
   },
   {
@@ -134,7 +134,7 @@
         "github": "https://github.com/aljaz-ferenc/ear-trainer"
       }
     ],
-    "id": 8,
+    "id": 7,
     "image": "ear-trainer"
   }
 ]

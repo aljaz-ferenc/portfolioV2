@@ -18,6 +18,8 @@
 @import "./sass/components/Name";
 @import "./sass/components/ProgressBar";
 @import "./sass/components/Mouse";
+@import "./sass/components/SingleProject";
+@import "./sass/components/Navigation";
 
 *,
 *::before,
@@ -31,10 +33,9 @@ body {
   font-family: "Abel", sans-serif;
   color: $color-text;
   overflow-x: hidden;
-position: relative
-;  background-color: #082032;
+  position: relative;
+  background-color: #082032;
 }
-
 
 button,
 input {
@@ -64,4 +65,3 @@ input {
 ::-webkit-scrollbar-thumb:hover {
   background: $color-accent;
 }
-

@@ -1,14 +1,15 @@
 import { motion } from "framer-motion";
 import "../main.scss";
 import { useState, useRef} from "react";
-import Portal2 from "./Portal2";
+// import Portal2 from "./Portal2";
+import { Link } from "react-router-dom";
 
-export default function Project({ project }) {
+export default function Project({ project, i}) {
   const [isOpen, setIsOpen] = useState(false);
   const [textIsShown, setTextIsShown] = useState(false);
   const projectRef = useRef();
 
-  const animationSpeed = 1000;
+  const animationSpeed = 500;
 
   function handleShowDetails() {
     setIsOpen(true);
@@ -25,7 +26,7 @@ export default function Project({ project }) {
 
   const scrollVariants = {
     initial: {
-      y: 100,
+      y: 300,
       opacity: 0,
     },
     animate: {
@@ -33,7 +34,7 @@ export default function Project({ project }) {
       opacity: 1,
       transition: {
         duration: animationSpeed / 1000,
-        delay: project.id / 10,
+        delay: i / 10,
       },
     },
   };
@@ -46,6 +47,7 @@ export default function Project({ project }) {
       variants={scrollVariants}
       viewport={{ once: true }}
     >
+      <Link to={`/${project.id}`}>
       <div className="project" ref={projectRef}>
         <div className="project__closed">
           <img
@@ -53,18 +55,19 @@ export default function Project({ project }) {
             src={`/projects-images/${project.image}1000.webp`}
             alt="project image"
             onClick={handleShowDetails}
-          />
+            />
 
           {!isOpen && (
-            <h2 onClick={handleShowDetails} className="project__title--closed">
+            <h2 className="project__title--closed">
               {project.title}
             </h2>
           )}
         </div>
       </div>
-      {isOpen && (
+      {/* {isOpen && (
         <Portal2 checkClick={checkClick} isOpen={isOpen} project={project} />
-      )}
+      )} */}
+          </Link>
     </motion.div>
   );
 }

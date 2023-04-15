@@ -10,7 +10,12 @@ export default function Contact() {
 
 
   return (
-    <div className="contact-container">
+    <motion.div 
+    className="contact-container"
+    exit={{y:"100vh", transition: {duration: 0.5}}}
+    initial={{x:"-100vw"}}
+    animate={{x:0}}
+    >
       <h2 className="contact__heading">Contact</h2>
       <motion.form
         variants={formVariants}
@@ -65,6 +70,6 @@ export default function Contact() {
           </button>
         </div>
       </motion.form>
-    </div>
+    </motion.div>
   );
 }

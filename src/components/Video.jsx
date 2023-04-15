@@ -11,7 +11,6 @@ export default function Video({muted, video}) {
         height="auto"
         autoPlay
         loop
-        controls
       >
         <source src={videoBg} type="video/mp4" />
         Your browser does not support the video tag.

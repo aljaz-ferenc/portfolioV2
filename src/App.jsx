@@ -1,24 +1,31 @@
-import React, { useEffect, useRef, useState, lazy, Suspense } from "react";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
 import "./main.scss";
+import Home from "./pages/Home";
+import { Route, Routes, useLocation } from "react-router-dom";
+import SingleProject from "./pages/SingleProject";
+import { AnimatePresence } from "framer-motion";
 import Tools from "./components/Tools";
+import Projects from "./components/Projects";
+import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
-import ToolsMobile from "./components/ToolsMobile";
-import ProgressBar from "./components/ProgressBar";
 import Mouse from "./components/Mouse";
 
 function App() {
+  const location = useLocation();
+
   return (
-    <div className="App" id="app">
-      <Mouse/>
-      <ProgressBar/>
-      <Hero />
-      <Tools />
-      <ToolsMobile />
-      <Projects />
-      <Contact />
-    </div>
+    <>
+    <Navigation/>
+    <Mouse/>
+    <AnimatePresence mode="wait">
+      <Routes key={location.pathname} location={location}>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="tools" element={<Tools />}></Route>
+        <Route path="projects" element={<Projects />}></Route>
+        <Route path="/:project" element={<SingleProject />} />
+        <Route path="contact" element={<Contact />}></Route>
+      </Routes>
+    </AnimatePresence>
+    </>
   );
 }
 

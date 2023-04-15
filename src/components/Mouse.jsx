@@ -7,20 +7,19 @@ export default function Mouse() {
 
   useEffect(() => {
     const ctx = canvasRef.current.getContext("2d");
-
-    setWidth(innerWidth);
-    setHeight(innerHeight);
-
     const mouse = {
       x: -500,
       y: -500,
     };
 
+    setWidth(innerWidth);
+    setHeight(innerHeight);
+    
     window.addEventListener("mousemove", (e) => {
       mouse.x = e.clientX;
       mouse.y = e.clientY;
     });
-
+    
     window.addEventListener("resize", () => {
       setWidth(innerWidth);
       setHeight(innerHeight);
@@ -30,10 +29,10 @@ export default function Mouse() {
       ctx.clearRect(0, 0, innerWidth, innerHeight);
       ctx.beginPath();
       ctx.strokeStyle = "#ff4c29";
-      ctx.lineWidth = 3;
+      ctx.lineWidth = 1;
       ctx.arc(mouse.x, mouse.y, 30, 0, Math.PI * 2);
       ctx.stroke();
-
+    
       requestAnimationFrame(animate);
     }
     animate();

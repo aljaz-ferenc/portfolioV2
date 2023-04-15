@@ -8,6 +8,14 @@ import volumeOff from '../../public/icons/volume-off.svg'
 
 export default function Hero() {
   const [muted, setMuted] = useState(true);
+  const [video, setVideo] = useState(false)
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setMuted(false)
+  //   }, 100);
+  //   setVideo(true)
+  // }, [])
 
   const textVariants = {
     initialLeft: {
@@ -30,7 +38,7 @@ export default function Hero() {
 
   return (
     <div className="hero">
-      <div className="hero__overlay"></div>
+      {/* <div className="hero__overlay"></div> */}
       <div className="hero__volume-btns">
           {muted && <img onClick={() => setMuted(false)} src={volumeOn} alt="" />}
           {!muted && <img onClick={() => setMuted(true)} src={volumeOff}/>}

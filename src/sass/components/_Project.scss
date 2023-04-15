@@ -3,6 +3,7 @@
   position: relative;
   -webkit-box-reflect: below 0px
     linear-gradient(transparent, transparent, #0004);
+    color: $color-accent;
   h2 {
     font-size: 2rem;
   }
@@ -30,7 +31,7 @@
 }
 
 .project:hover .project__image {
-  filter: brightness(0.3);
+  filter: brightness(0.2);
   transform: scale(1.2);
 }
 

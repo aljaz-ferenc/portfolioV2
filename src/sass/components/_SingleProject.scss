@@ -1,0 +1,77 @@
+.single-project {
+  display: flex;
+  background-color: $color-secondary;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10%;
+  margin: 0 auto;
+  gap: 10%;
+  &__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    gap: 5rem;
+    img {
+      width: 100%;
+    }
+  }
+  &__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    &--title {
+        color: $color-accent;
+      font-size: 5rem;
+    }
+    &--subtitle {
+      font-size: 2.5rem;
+    }
+    &--paragraphs {
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+}
+
+.back-btn{
+  position: absolute;
+  padding: 1rem 3rem;
+  top: -5rem;
+  font-size: 2rem;
+  left: 0;
+}
+
+.single-project__links{
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    img{
+        height: 6rem;
+        filter: contrast(1.5);
+        &:hover{
+            animation: wiggle 0.3s 1 backwards ease-in-out;
+        }
+    }
+}
+
+@keyframes wiggle {
+    33% {
+      rotate: 5deg;
+  }
+  66% {
+      rotate: -5deg;
+  }
+  100% {
+      rotate: 0;
+    }
+  }

@@ -138,12 +138,13 @@
 @media (max-width: 425px) {
   .portal {
     &__head{
-      gap: .5rem;
+      gap: .3rem;
     }
     &__content {
       width: 100%;
       line-height: 1.1;
       height: 90%;
+      padding: .5rem;
       max-height: 100%;
       justify-content: space-around;
       .link-icons{

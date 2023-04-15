@@ -1,4 +1,5 @@
 .contact-container {
+  padding-top: 10rem;
   @include center-flex;
   max-width: 90%;
   margin: 0 auto;
@@ -6,7 +7,7 @@
   max-width: 100vw;
   .contact__heading {
     @include section-heading;
-    margin-bottom: 3rem;
+    margin-bottom: $margin-heading;
   }
   .contact {
     background-color: rgba($color: $color-secondary, $alpha: 0.5);
