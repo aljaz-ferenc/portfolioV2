@@ -1,5 +1,6 @@
 import React from "react";
 import "../main.scss";
+import { motion } from "framer-motion";
 
 export default function Tools() {
   const tools = [
@@ -14,15 +15,24 @@ export default function Tools() {
   ];
 
   return (
-    <div className="toolsM-container">
+    <motion.div 
+    className="toolsM-container"
+    exit={{ y: "100vh", transition: { duration: 0.5 } }}
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+    >
       <h3>Tools I use</h3>
       <div className="toolsM">
         {tools.map((tool, i) => (
-          <div key={i} className="toolM">
+          <motion.div
+            key={i}
+            className="toolM"
+            
+          >
             <img src={`./icons/mobile-icons/${tool}.svg`} alt="" />
-          </div>
+          </motion.div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
