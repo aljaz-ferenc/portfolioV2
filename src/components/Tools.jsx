@@ -1,6 +1,7 @@
 import React from "react";
 import CanvasComponent from "./Sphere";
 import {motion} from 'framer-motion'
+import ToolsMobile from './ToolsMobile'
 
 export default function Tools() {
   const tools = [
@@ -15,6 +16,7 @@ export default function Tools() {
   ];
 
   return (
+    <>
     <motion.div 
     className="tools-container"
     exit={{y:"100vh", transition: {duration: 0.5}}}
@@ -28,5 +30,7 @@ export default function Tools() {
         ))}
       </div>
     </motion.div>
+      <ToolsMobile />
+          </>
   );
 }
