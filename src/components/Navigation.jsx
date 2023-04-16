@@ -9,6 +9,7 @@ export default function Navigation() {
             <NavLink to='projects'>Projects</NavLink>
             <NavLink to='tools'>Tools</NavLink>
             <NavLink to='contact'>Contact</NavLink>
+            <a href="https://blog-react-af.netlify.app/" target='_blank'>Blog</a>
         </nav>
     </header>
   )
