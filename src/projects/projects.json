@@ -5,6 +5,7 @@
     "paragraphs": [
       "This application allows you to design customized flashcards with questions on one side and answers on the other. When a question appears, the user attempts to answer it and informs the app whether their response was correct.",
       "The app is built on the concept of spaced repetition, which means that if the user answers correctly the first time, the card will only be presented after 24 hours. If the answer is correct once again, the card will be presented after 3 days and so on, with increasingly longer intervals between reviews. If the user's response is incorrect, the cards restarts from the beginning.",
+      "This memorization technique is extremely effective because simpler information is reviewed less frequently, while more challenging information is reviewed more often.",
       "You may learn more about spaced repetition by visiting the How it works page."
     ],
     "urls": [
@@ -21,7 +22,7 @@
     "subtitle": "Come on in, we've got great deals!",
     "paragraphs": [
       "This e-commerce demo app was built with React.js, React Router and Redux Toolkit for state management.",
-      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage and rehydrated on page refresh. Debouncing is implemented in the search functionality.",
+      "Supabase is used as a backend, which provides the neccessary information about the products. With the help of Redux Persist state is saved in persistent storage (local storage) and rehydrated on page refresh. Debouncing is implemented in the search functionality, this way products will be fetched only when the user stops typing in the search box.",
       "NOTE: Since this is a demo app, no information will be submitted anywhere when you 'order' a product. Type some fake info into the form to get through validation."
     ],
     "urls": [
@@ -53,7 +54,7 @@
     "title": "Snippets",
     "subtitle": "Online code editor.",
     "paragraphs": [
-      "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones.",
+      "Snippets code editor allows users to write HTML, CSS and JavaScript code, save code snippets or update existing ones",
       "This CRUD (create, read, update and delete) app was written in React.js, with the help of Supabase as a backend.",
       "I used Redux Toolkit for application-wide state management. I learned about creating a store, slices, reducers and dispatching actions to update the state.",
       "This is a demo page and I already created a few snippets which can be found on the 'My Snippets' page. Feel free to add, edit or remove them for testing/reviewing purposes."
@@ -89,8 +90,7 @@
     "subtitle": "Check current weather conditions and forecast.",
     "paragraphs": [
       "Weather Dashboard is a pretty simple app, but it is my first app written in React.js. With this project I learned a lot about the basics of React like components, props, hooks, JSX and React architecture.",
-      "The app fetches weather data from OpenWeather API, maninpulates it, and displays it on the screen. The app is responsive and ready to be used on many different devices.",
-      "I am starting to see the advantages that React has to offer and am looking forward to building more complex projects."
+      "The app fetches weather data from OpenWeather API, maninpulates it, and displays it on the screen. The app is responsive and ready to be used on many different devices."
     ],
     "urls": [
       {
@@ -106,8 +106,8 @@
     "subtitle": "Track their personal finances and cryptocurrency investments.",
     "paragraphs": [
       "EXPENSE TRACKER: The user can input and track their monthly income and expenses.",
-      "ENVELOPES: The user can create virtual envelopes and add money anytime to save up for a specific expense.",
-      "CRYPTO TRACKER: The user can add and track their cryptocurrency orders. Anytime a buy or sell order is added, the app will fetch the current price via Coin Gecko's API and calculate the order amount.",
+      "ENVELOPES: Based on the envelope saving system, traditionally using physical envelopes and cash, the user can create virtual envelopes and add money anytime to save up for a specific expense.",
+      "CRYPTO TRACKER: The user can add and track their cryptocurrency orders. Anytime a buy or sell order is added, the app will fetch the current price via Coin Gecko's API and calculate the order amount. The cryptocurrency is added to the user's holdings and the portfolio amount is updated.",
       "WATCHLIST: The user can add assets to their watchlist, which will display the asset's chart. The charts are made using the Chart.js library and created dynamically by fetching the last 30 days of price data from the Coin Gecko API."
     ],
     "urls": [
