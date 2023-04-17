@@ -21,7 +21,7 @@ export default function Tools() {
     className="tools-container"
     exit={{y:"100vh", transition: {duration: 0.5}}}
     initial={{x:"-100vw"}}
-    animate={{x:0}}
+    animate={{x:0, transition: {ease: 'easeInOut'}}}
     >
       <h3>Tools I use</h3>
       <div className="tools">

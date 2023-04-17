@@ -14,7 +14,7 @@ export default function Contact() {
     className="contact-container"
     exit={{y:"100vh", transition: {duration: 0.5}}}
     initial={{x:"-100vw"}}
-    animate={{x:0}}
+    animate={{x:0, transition: {ease: 'easeInOut'}}}
     >
       <h2 className="contact__heading">Contact</h2>
       <motion.form

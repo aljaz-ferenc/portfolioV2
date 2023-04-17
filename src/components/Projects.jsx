@@ -17,7 +17,7 @@ export default function Projects() {
     exit={{y:"100vh", transition: {duration: 0.5}}}
 
     initial={{x:"-100vw"}}
-    animate={{x:0}}
+    animate={{x:0, transition: {ease: 'easeInOut'}}}
     >
       <h1 className="projects__heading">PROJECTS</h1>
       <motion.div 
