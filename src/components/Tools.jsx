@@ -1,7 +1,9 @@
 import React from "react";
-import CanvasComponent from "./Sphere";
+import CanvasComponent from "./CanvasComponent";
 import {motion} from 'framer-motion'
 import ToolsMobile from './ToolsMobile'
+import Tools2 from "./Tools2";
+import { Canvas } from "@react-three/fiber";
 
 export default function Tools() {
   const tools = [
@@ -28,6 +30,7 @@ export default function Tools() {
         {tools.map((tool, i) => (
           <CanvasComponent key={i} tool={tool} />
         ))}
+        {/* <Tools2/> */}
       </div>
     </motion.div>
       <ToolsMobile />
