@@ -2,8 +2,23 @@
     position: absolute;
     top: 11rem;
     left: 50%;
-    width: max-content;
+    text-align: center;
     transform: translateX(-50%);
     color: $color-accent;
     font-size: 3rem;
+    width: 90%;
 }
+
+
+  @media (max-width: 768px) {
+    .tools-header{
+        font-size: 2rem;
+        top:8rem;
+    }
+  }
+  @media (max-width: 425px) {
+    .tools-header{
+        top: 5rem;
+    }
+  }
+  
