@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <header>
         <nav className='navigation'>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/'>About</NavLink>
             <NavLink to='projects'>Projects</NavLink>
             <NavLink to='tools'>My Stack</NavLink>
             <a href="https://blog-react-af.netlify.app/" target='_blank'>Blog</a>
