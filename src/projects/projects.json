@@ -1,5 +1,22 @@
 [
   {
+    "title": "3D Flight",
+    "subtitle": "Freedom above the clouds.",
+    "paragraphs": [
+      "3D Flight is a simple game built in Three.js. The goal is to control the plane and collect as many coins as possible.",
+      "Position and rotation of the plane on X, Y and Z axis is updated on player's input, collision detection is implemented to detect if the plane intersects a coin and the game takes place inside of a sphere with a texture of the sky.",
+      "3D animations are very satisfying to work on but also more challenging. I am looking forward to explore more of what Three.js is capable of."
+    ],
+    "urls": [
+      {
+        "netlify": "https://3d-flight-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/plane-game"
+      }
+    ],
+    "id": 0,
+    "image": "3d-flight"
+  },
+  {
     "title": "Spaced Repetition",
     "subtitle": "An efficient approach to learning new information.",
     "paragraphs": [
@@ -14,7 +31,7 @@
         "github": "https://github.com/aljaz-ferenc/spaced-repetition"
       }
     ],
-    "id": 0,
+    "id": 1,
     "image": "spaced-repetition"
   },
   {
@@ -31,7 +48,7 @@
         "github": "https://github.com/aljaz-ferenc/ecommerce"
       }
     ],
-    "id": 1,
+    "id": 2,
     "image": "e-commerce"
   },
   {
@@ -47,7 +64,7 @@
         "github": "https://github.com/aljaz-ferenc/alien-invaders"
       }
     ],
-    "id": 2,
+    "id": 3,
     "image": "alien-invaders"
   },
   {
@@ -65,7 +82,7 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 3,
+    "id": 4,
     "image": "snippets"
   },
   {
@@ -82,7 +99,7 @@
         "github": "https://github.com/aljaz-ferenc/speed-type"
       }
     ],
-    "id": 4,
+    "id": 5,
     "image": "speed-type"
   },
   {
@@ -98,7 +115,7 @@
         "github": "https://github.com/aljaz-ferenc/weather-app"
       }
     ],
-    "id": 5,
+    "id": 6,
     "image": "weather-dashboard"
   },
   {
@@ -116,7 +133,7 @@
         "github": "https://github.com/aljaz-ferenc/wise-tracker"
       }
     ],
-    "id": 6,
+    "id": 7,
     "image": "wise-tracker"
   },
   {
@@ -134,7 +151,7 @@
         "github": "https://github.com/aljaz-ferenc/ear-trainer"
       }
     ],
-    "id": 7,
+    "id": 8,
     "image": "ear-trainer"
   }
 ]
