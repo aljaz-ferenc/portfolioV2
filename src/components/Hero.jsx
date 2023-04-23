@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import Name from "./Name";
 import Video from "./Video";
 import { useEffect, useState } from "react";
-import volumeOn from '../../public/icons/volume-on.svg'
-import volumeOff from '../../public/icons/volume-off.svg'
+import volumeOn from '../volume-on.svg'
+import volumeOff from '../volume-off.svg'
 
 export default function Hero() {
   const [muted, setMuted] = useState(true);

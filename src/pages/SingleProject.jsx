@@ -8,7 +8,6 @@ export default function Project() {
   const { project } = useParams();
   const [thisProject, setThisProject] = useState();
 
-
   useEffect(() => {
     setThisProject(projectsFile[project]);
   }, []);
