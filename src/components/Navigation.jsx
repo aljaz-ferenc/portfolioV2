@@ -7,7 +7,7 @@ export default function Navigation() {
         <nav className='navigation'>
             <NavLink to='/'>About</NavLink>
             <NavLink to='projects'>Projects</NavLink>
-            <NavLink to='tools'>My Stack</NavLink>
+            <NavLink to='stack'>My Stack</NavLink>
             <a href="https://blog-react-af.netlify.app/" target='_blank'>Blog</a>
             <NavLink to='contact'>Contact</NavLink>
         </nav>
