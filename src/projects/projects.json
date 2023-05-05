@@ -1,5 +1,21 @@
 [
   {
+    "title": "Thunderbolt-GT",
+    "subtitle": "Cruise with power.",
+    "paragraphs": [
+      "This page is just an idea for a products's landing page using 3D models and animations.",
+      "The page is built in React.js with the help of Three.js library for setting up the model of a car. Redux toolkit tracks which section the user is on, and wether or not an animation is active. Based on these states I am able to control the movement of the model with GSAP library and Framer-motion for animating text."
+    ],
+    "urls": [
+      {
+        "netlify": "https://thunderbolt-gt.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/thunderbolt-gt"
+      }
+    ],
+    "id": 0,
+    "image": "thunderbolt-gt"
+  },
+  {
     "title": "3D Flight",
     "subtitle": "Freedom above the clouds.",
     "paragraphs": [
@@ -13,7 +29,7 @@
         "github": "https://github.com/aljaz-ferenc/plane-game"
       }
     ],
-    "id": 0,
+    "id": 1,
     "image": "3d-flight"
   },
   {
@@ -31,7 +47,7 @@
         "github": "https://github.com/aljaz-ferenc/spaced-repetition"
       }
     ],
-    "id": 1,
+    "id": 2,
     "image": "spaced-repetition"
   },
   {
@@ -48,7 +64,7 @@
         "github": "https://github.com/aljaz-ferenc/ecommerce"
       }
     ],
-    "id": 2,
+    "id": 3,
     "image": "e-commerce"
   },
   {
@@ -64,7 +80,7 @@
         "github": "https://github.com/aljaz-ferenc/alien-invaders"
       }
     ],
-    "id": 3,
+    "id": 4,
     "image": "alien-invaders"
   },
   {
@@ -82,7 +98,7 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 4,
+    "id": 5,
     "image": "snippets"
   },
   {
@@ -99,7 +115,7 @@
         "github": "https://github.com/aljaz-ferenc/speed-type"
       }
     ],
-    "id": 5,
+    "id": 6,
     "image": "speed-type"
   },
   {
@@ -115,7 +131,7 @@
         "github": "https://github.com/aljaz-ferenc/weather-app"
       }
     ],
-    "id": 6,
+    "id": 7,
     "image": "weather-dashboard"
   },
   {
@@ -133,7 +149,7 @@
         "github": "https://github.com/aljaz-ferenc/wise-tracker"
       }
     ],
-    "id": 7,
+    "id": 8,
     "image": "wise-tracker"
   },
   {
@@ -151,7 +167,7 @@
         "github": "https://github.com/aljaz-ferenc/ear-trainer"
       }
     ],
-    "id": 8,
+    "id": 9,
     "image": "ear-trainer"
   }
 ]
