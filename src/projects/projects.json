@@ -1,5 +1,23 @@
 [
   {
+    "title": "Recipes",
+    "subtitle": "Improve your cooking skills.",
+    "paragraphs": [
+      "With this app, users have the opportunity to share their favorite cooking recipes with each other.",
+      "This app, built with React.js and react-router, and Firebase's Database, Storage, and Authentication services are used as the backend, enabling seamless recipe sharing.",
+      "Users can create their own accounts, upload their recipes, see and filter other users' recipes, leave comments, and save their favorites in one place. Every user also gets a shopping list to make sure they have all ingredients in stock for when it's cooking time.",
+      "In this app, users can create accounts, upload their recipes, explore and filter recipes shared by others, leave comments, and save their favorite recipes in one centralized location. Additionally, each user is provided with a convenient shopping list feature to ensure they have all the necessary ingredients in stock when it's time to cook."
+    ],
+    "urls": [
+      {
+        "netlify": "https://recipes-af.netlify.app/login",
+        "github": "https://github.com/aljaz-ferenc/recipes"
+      }
+    ],
+    "id": 0,
+    "image": "recipes"
+  },
+  {
     "title": "Thunderbolt-GT",
     "subtitle": "Cruise with power.",
     "paragraphs": [
@@ -12,7 +30,7 @@
         "github": "https://github.com/aljaz-ferenc/thunderbolt-gt"
       }
     ],
-    "id": 0,
+    "id": 1,
     "image": "thunderbolt-gt"
   },
   {
@@ -29,7 +47,7 @@
         "github": "https://github.com/aljaz-ferenc/plane-game"
       }
     ],
-    "id": 1,
+    "id": 2,
     "image": "3d-flight"
   },
   {
@@ -47,7 +65,7 @@
         "github": "https://github.com/aljaz-ferenc/spaced-repetition"
       }
     ],
-    "id": 2,
+    "id": 3,
     "image": "spaced-repetition"
   },
   {
@@ -64,7 +82,7 @@
         "github": "https://github.com/aljaz-ferenc/ecommerce"
       }
     ],
-    "id": 3,
+    "id": 4,
     "image": "e-commerce"
   },
   {
@@ -80,7 +98,7 @@
         "github": "https://github.com/aljaz-ferenc/alien-invaders"
       }
     ],
-    "id": 4,
+    "id": 5,
     "image": "alien-invaders"
   },
   {
@@ -98,25 +116,8 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 5,
-    "image": "snippets"
-  },
-  {
-    "title": "Speed Typing",
-    "subtitle": "Challenge yourself and test your blind typing skills.",
-    "paragraphs": [
-      "Speed Typing App is written in React and it allows users to test their blind typing skills.",
-      "The user can choose the number of words and the app will fetch random words from random-word-api.herokuapp.com. A timer starts running when the users starts typing. The input is constantly being checked and the game stops when every input letter is correct or the user makes a mistake. At this point the timer stops and the average speed is calculated.",
-      "By building this app I learned about new hooks, conditional rendering based on state, using loading animations and React Portals."
-    ],
-    "urls": [
-      {
-        "netlify": "https://speed-type-af.netlify.app/",
-        "github": "https://github.com/aljaz-ferenc/speed-type"
-      }
-    ],
     "id": 6,
-    "image": "speed-type"
+    "image": "snippets"
   },
   {
     "title": "Weather Dashboard",
