@@ -4,9 +4,9 @@
     "subtitle": "Improve your cooking skills.",
     "paragraphs": [
       "With this app, users have the opportunity to share their favorite cooking recipes with each other.",
-      "This app, built with React.js and react-router, and Firebase's Database, Storage, and Authentication services are used as the backend, enabling seamless recipe sharing.",
-      "Users can create their own accounts, upload their recipes, see and filter other users' recipes, leave comments, and save their favorites in one place. Every user also gets a shopping list to make sure they have all ingredients in stock for when it's cooking time.",
-      "In this app, users can create accounts, upload their recipes, explore and filter recipes shared by others, leave comments, and save their favorite recipes in one centralized location. Additionally, each user is provided with a convenient shopping list feature to ensure they have all the necessary ingredients in stock when it's time to cook."
+      "The app is built with React.js, react-router, and Firebase's Database, Storage, and Authentication services as the backend, enabling seamless recipe sharing.",
+      "Users can create accounts, upload their recipes, explore and filter recipes shared by others, leave comments, and save their favorite recipes in one location. Additionally, each user is provided with a convenient shopping list feature to ensure they have all the necessary ingredients in stock when it's time to cook.",
+      "For testing you can use the email and password already provided as default inputs on the login page."
     ],
     "urls": [
       {
