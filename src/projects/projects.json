@@ -1,6 +1,6 @@
 [
   {
-    "title": "Recipes",
+    "title": "Recipes - MERN stack",
     "subtitle": "Improve your cooking skills and share your favorite recipes with others.",
     "paragraphs": [
       "This is my very first fullstack CRUD app, built with React for the frontend and Node/Express for the backend. I've incorporated user authentication using JWT, along with a MongoDB database.",
