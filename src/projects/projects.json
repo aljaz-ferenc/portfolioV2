@@ -1,17 +1,17 @@
 [
   {
     "title": "Recipes",
-    "subtitle": "Improve your cooking skills.",
+    "subtitle": "Improve your cooking skills and share your favorite recipes with others.",
     "paragraphs": [
-      "With this app, users have the opportunity to share their favorite cooking recipes with each other.",
-      "The app is built with React.js, react-router, and Firebase's Database, Storage, and Authentication services as the backend, enabling seamless recipe sharing.",
-      "Users can create accounts, upload their recipes, explore and filter recipes shared by others, leave comments, and save their favorite recipes in one location. Additionally, each user is provided with a convenient shopping list feature to ensure they have all the necessary ingredients in stock when it's time to cook.",
-      "For testing you can use the email and password already provided as default inputs on the login page."
+      "This is my very first fullstack CRUD app, built with React for the frontend and Node/Express for the backend. I've incorporated user authentication using JWT, along with a MongoDB database.",
+      "Users can create accounts, explore, filter and upload recipes, leave reviews, and save their favorite recipes in one location. Additionally, each user is provided with a convenient shopping list feature to ensure they have all the necessary ingredients in stock when it's time to cook.",
+      "For testing purposes you can use the email and password provided as default inputs on the login page.",
+      "NOTE: The app is using render.com to host the server, which goes to sleep mode after 15 minutes of inactivity. Please wait 30 seconds and refresh the page if it doesn't show up at first, or if logging in takes a long time."
     ],
     "urls": [
       {
-        "netlify": "https://recipes-af.netlify.app/login",
-        "github": "https://github.com/aljaz-ferenc/recipes"
+        "netlify": "https://recipes-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/recipes-app"
       }
     ],
     "id": 0,
