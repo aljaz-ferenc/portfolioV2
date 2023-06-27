@@ -1,5 +1,23 @@
 [
   {
+    "title": "Workout Pal",
+    "subtitle": "The ultimate fitness companion.",
+    "paragraphs": [
+      "With Workout Pal, users can create and share their personalized workout routines while utilizing the app as a helpful guide throughout their fitness journey.",
+      "FRONTEND - Built with React.js and Chakra-UI library for UI components, the app can take a workout with different exercises and rest periods between them as input and guide the user through the workout. It tracks the current exercise and counts down the specified resting period so the user always know what exercise to perform.",
+      "BACKEND - Built with Node/Express.js and MongoDB, it supports functionalities like signing up, logging in, creating, sharing and deleting exercises, updating passwords and account deletion.",
+      "NOTE - I suggest trying out the 'Test Workout', which is intentionally short in order to quickly show the app's functionality."
+    ],
+    "urls": [
+      {
+        "netlify": "https://workout-pal-af.netlify.app/login",
+        "github": "https://github.com/aljaz-ferenc/workout-pal"
+      }
+    ],
+    "id": 0,
+    "image": "workout-pal"
+  },
+  {
     "title": "Recipes - MERN stack",
     "subtitle": "Improve your cooking skills and share your favorite recipes with others.",
     "paragraphs": [
@@ -14,7 +32,7 @@
         "github": "https://github.com/aljaz-ferenc/recipes-app"
       }
     ],
-    "id": 0,
+    "id": 1,
     "image": "recipes"
   },
   {
@@ -30,7 +48,7 @@
         "github": "https://github.com/aljaz-ferenc/thunderbolt-gt"
       }
     ],
-    "id": 1,
+    "id": 2,
     "image": "thunderbolt-gt"
   },
   {
@@ -47,7 +65,7 @@
         "github": "https://github.com/aljaz-ferenc/plane-game"
       }
     ],
-    "id": 2,
+    "id": 3,
     "image": "3d-flight"
   },
   {
@@ -55,7 +73,7 @@
     "subtitle": "An efficient approach to learning new information.",
     "paragraphs": [
       "This application allows you to design customized flashcards with questions on one side and answers on the other. When a question appears, the user attempts to answer it and informs the app whether their response was correct.",
-      "The app is built on the concept of spaced repetition, which means that if the user answers correctly the first time, the card will only be presented after 24 hours. If the answer is correct once again, the card will be presented after 3 days and so on, with increasingly longer intervals between reviews. If the user's response is incorrect, the cards restarts from the beginning.",
+      "The app is built on the concept of spaced repetition, which means that if the user answers correctly the first time, the card will only be presented after 24 hours. If the answer is correct once again, the card will be presented after 3 days and so on, with increasingly longer intervals between reviews. If the user's response is incorrect, the card restarts from the beginning.",
       "This memorization technique is extremely effective because simpler information is reviewed less frequently, while more challenging information is reviewed more often.",
       "You may learn more about spaced repetition by visiting the How it works page."
     ],
@@ -65,7 +83,7 @@
         "github": "https://github.com/aljaz-ferenc/spaced-repetition"
       }
     ],
-    "id": 3,
+    "id": 4,
     "image": "spaced-repetition"
   },
   {
@@ -82,7 +100,7 @@
         "github": "https://github.com/aljaz-ferenc/ecommerce"
       }
     ],
-    "id": 4,
+    "id": 5,
     "image": "e-commerce"
   },
   {
@@ -98,7 +116,7 @@
         "github": "https://github.com/aljaz-ferenc/alien-invaders"
       }
     ],
-    "id": 5,
+    "id": 6,
     "image": "alien-invaders"
   },
   {
@@ -116,7 +134,7 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 6,
+    "id": 7,
     "image": "snippets"
   },
   {
@@ -132,7 +150,7 @@
         "github": "https://github.com/aljaz-ferenc/weather-app"
       }
     ],
-    "id": 7,
+    "id": 8,
     "image": "weather-dashboard"
   },
   {
@@ -150,7 +168,7 @@
         "github": "https://github.com/aljaz-ferenc/wise-tracker"
       }
     ],
-    "id": 8,
+    "id": 9,
     "image": "wise-tracker"
   },
   {
@@ -168,7 +186,7 @@
         "github": "https://github.com/aljaz-ferenc/ear-trainer"
       }
     ],
-    "id": 9,
+    "id": 10,
     "image": "ear-trainer"
   }
 ]
