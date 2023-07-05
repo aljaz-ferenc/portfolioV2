@@ -1,5 +1,21 @@
 [
   {
+    "title": "Sleepiest Clone",
+    "subtitle": "All about animations.",
+    "paragraphs": [
+      "I created a clone of the sleepiest.com landing page to learn and practice creating animations.",
+      "Animations are made with Framer Motion, mostly based on scrolling. The page uses a few different types of animations like animating elements as they come into view, staggering animations and parallax effect."
+    ],
+    "urls": [
+      {
+        "netlify": "https://sleepiest-clone-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/sleepiest-clone"
+      }
+    ],
+    "id": 0,
+    "image": "sleepiest"
+  },
+  {
     "title": "Workout Pal",
     "subtitle": "The ultimate fitness companion.",
     "paragraphs": [
@@ -14,7 +30,7 @@
         "github": "https://github.com/aljaz-ferenc/workout-pal"
       }
     ],
-    "id": 0,
+    "id": 1,
     "image": "workout-pal"
   },
   {
@@ -32,7 +48,7 @@
         "github": "https://github.com/aljaz-ferenc/recipes-app"
       }
     ],
-    "id": 1,
+    "id": 2,
     "image": "recipes"
   },
   {
@@ -48,7 +64,7 @@
         "github": "https://github.com/aljaz-ferenc/thunderbolt-gt"
       }
     ],
-    "id": 2,
+    "id": 3,
     "image": "thunderbolt-gt"
   },
   {
@@ -65,7 +81,7 @@
         "github": "https://github.com/aljaz-ferenc/plane-game"
       }
     ],
-    "id": 3,
+    "id": 4,
     "image": "3d-flight"
   },
   {
@@ -83,7 +99,7 @@
         "github": "https://github.com/aljaz-ferenc/spaced-repetition"
       }
     ],
-    "id": 4,
+    "id": 5,
     "image": "spaced-repetition"
   },
   {
@@ -100,7 +116,7 @@
         "github": "https://github.com/aljaz-ferenc/ecommerce"
       }
     ],
-    "id": 5,
+    "id": 6,
     "image": "e-commerce"
   },
   {
@@ -116,7 +132,7 @@
         "github": "https://github.com/aljaz-ferenc/alien-invaders"
       }
     ],
-    "id": 6,
+    "id": 7,
     "image": "alien-invaders"
   },
   {
@@ -134,7 +150,7 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 7,
+    "id": 8,
     "image": "snippets"
   },
   {
@@ -150,7 +166,7 @@
         "github": "https://github.com/aljaz-ferenc/weather-app"
       }
     ],
-    "id": 8,
+    "id": 9,
     "image": "weather-dashboard"
   },
   {
@@ -168,7 +184,7 @@
         "github": "https://github.com/aljaz-ferenc/wise-tracker"
       }
     ],
-    "id": 9,
+    "id": 10,
     "image": "wise-tracker"
   },
   {
@@ -186,7 +202,7 @@
         "github": "https://github.com/aljaz-ferenc/ear-trainer"
       }
     ],
-    "id": 10,
+    "id": 11,
     "image": "ear-trainer"
   }
 ]
