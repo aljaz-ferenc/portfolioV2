@@ -1,21 +1,5 @@
 [
   {
-    "title": "Sleepiest Clone",
-    "subtitle": "All about animations.",
-    "paragraphs": [
-      "I created a clone of the sleepiest.com landing page to learn and practice creating animations.",
-      "Animations are made with Framer Motion, mostly based on scrolling. The page uses a few different types of animations like animating elements as they come into view, staggering animations and parallax effect."
-    ],
-    "urls": [
-      {
-        "netlify": "https://sleepiest-clone-af.netlify.app/",
-        "github": "https://github.com/aljaz-ferenc/sleepiest-clone"
-      }
-    ],
-    "id": 0,
-    "image": "sleepiest"
-  },
-  {
     "title": "Workout Pal",
     "subtitle": "The ultimate fitness companion.",
     "paragraphs": [
@@ -30,11 +14,11 @@
         "github": "https://github.com/aljaz-ferenc/workout-pal"
       }
     ],
-    "id": 1,
+    "id": 0,
     "image": "workout-pal"
   },
   {
-    "title": "Recipes - MERN stack",
+    "title": "Recipes",
     "subtitle": "Improve your cooking skills and share your favorite recipes with others.",
     "paragraphs": [
       "This is my very first fullstack CRUD app, built with React for the frontend and Node/Express for the backend. I've incorporated user authentication using JWT, along with a MongoDB database.",
@@ -48,8 +32,24 @@
         "github": "https://github.com/aljaz-ferenc/recipes-app"
       }
     ],
-    "id": 2,
+    "id": 1,
     "image": "recipes"
+  },
+  {
+    "title": "Sleepiest Clone",
+    "subtitle": "All about animations.",
+    "paragraphs": [
+      "I created a clone of the sleepiest.com landing page to learn and practice creating animations.",
+      "Animations are made with Framer Motion, mostly based on scrolling. The page uses a few different types of animations like animating elements as they come into view, staggering animations and parallax effect."
+    ],
+    "urls": [
+      {
+        "netlify": "https://sleepiest-clone-af.netlify.app/",
+        "github": "https://github.com/aljaz-ferenc/sleepiest-clone"
+      }
+    ],
+    "id": 2,
+    "image": "sleepiest"
   },
   {
     "title": "Thunderbolt-GT",
