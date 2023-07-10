@@ -67,41 +67,7 @@
     "id": 3,
     "image": "thunderbolt-gt"
   },
-  {
-    "title": "3D Flight",
-    "subtitle": "Freedom above the clouds.",
-    "paragraphs": [
-      "3D Flight is a simple game built in Three.js. The goal is to control the plane and collect as many coins as possible.",
-      "Position and rotation of the plane on X, Y and Z axis is updated on player's input, collision detection is implemented to detect if the plane intersects a coin and the game takes place inside of a sphere with a texture of the sky.",
-      "3D animations are very satisfying to work on but also more challenging. I am looking forward to explore more of what Three.js is capable of."
-    ],
-    "urls": [
-      {
-        "netlify": "https://3d-flight-af.netlify.app/",
-        "github": "https://github.com/aljaz-ferenc/plane-game"
-      }
-    ],
-    "id": 4,
-    "image": "3d-flight"
-  },
-  {
-    "title": "Spaced Repetition",
-    "subtitle": "An efficient approach to learning new information.",
-    "paragraphs": [
-      "This application allows you to design customized flashcards with questions on one side and answers on the other. When a question appears, the user attempts to answer it and informs the app whether their response was correct.",
-      "The app is built on the concept of spaced repetition, which means that if the user answers correctly the first time, the card will only be presented after 24 hours. If the answer is correct once again, the card will be presented after 3 days and so on, with increasingly longer intervals between reviews. If the user's response is incorrect, the card restarts from the beginning.",
-      "This memorization technique is extremely effective because simpler information is reviewed less frequently, while more challenging information is reviewed more often.",
-      "You may learn more about spaced repetition by visiting the How it works page."
-    ],
-    "urls": [
-      {
-        "netlify": "https://spaced-repetition-af.netlify.app/",
-        "github": "https://github.com/aljaz-ferenc/spaced-repetition"
-      }
-    ],
-    "id": 5,
-    "image": "spaced-repetition"
-  },
+  
   {
     "title": "E-commerce",
     "subtitle": "Come on in, we've got great deals!",
@@ -116,7 +82,7 @@
         "github": "https://github.com/aljaz-ferenc/ecommerce"
       }
     ],
-    "id": 6,
+    "id": 4,
     "image": "e-commerce"
   },
   {
@@ -132,7 +98,7 @@
         "github": "https://github.com/aljaz-ferenc/alien-invaders"
       }
     ],
-    "id": 7,
+    "id": 5,
     "image": "alien-invaders"
   },
   {
@@ -150,7 +116,7 @@
         "github": "https://github.com/aljaz-ferenc/snippets"
       }
     ],
-    "id": 8,
+    "id": 6,
     "image": "snippets"
   },
   {
@@ -166,7 +132,7 @@
         "github": "https://github.com/aljaz-ferenc/weather-app"
       }
     ],
-    "id": 9,
+    "id": 7,
     "image": "weather-dashboard"
   },
   {
@@ -184,7 +150,7 @@
         "github": "https://github.com/aljaz-ferenc/wise-tracker"
       }
     ],
-    "id": 10,
+    "id": 8,
     "image": "wise-tracker"
   },
   {
@@ -202,7 +168,7 @@
         "github": "https://github.com/aljaz-ferenc/ear-trainer"
       }
     ],
-    "id": 11,
+    "id": 9,
     "image": "ear-trainer"
   }
 ]
